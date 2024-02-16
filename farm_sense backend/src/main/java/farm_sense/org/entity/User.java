@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
+import org.springframework.lang.NonNull;
 
-import com.mongodb.lang.NonNull;
 
 public class User {
 
@@ -22,8 +22,6 @@ public class User {
 	@NonNull
 	private String password;
 	private List<String> access;
-	
-	
 	
 	
 	public User() {
